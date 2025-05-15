@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('https://playwright.dev/docs');
+  await page.goto('/');
 });
 
 test('Realizar una busqueda que no tenga resultados', async ({ page }) => {
